@@ -44,7 +44,7 @@ void main()
 			scanf("%d", &x1);
 			printf("Enter lower column :- ");
 			scanf("%d", &y1);
-			regs.h.ah = 6;
+			regs.h.ah = 7;
 			regs.h.al = lines;
 			regs.h.bh = 7;
 			regs.h.cl = x;
