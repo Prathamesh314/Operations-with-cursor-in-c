@@ -10,6 +10,7 @@ void main()
 	int cont = 1;
 	union REGS regs;
 	while(cont!=0){
+		clrscr();
 		printf("Enter 1 to set cursor size\nEnter 2 to scroll the window down\nEnter 3 to position the cursor\nEnter 4 to read the cursor position\nEnter your choice :- ");
 		scanf("%d", &choice);
 		switch (choice)
